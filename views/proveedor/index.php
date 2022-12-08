@@ -27,7 +27,7 @@
                     <table class="table table-bordered table-striped table-hover align-middle nowrap" id="tblProveedores" style="width: 100%;">
                         <thead>
                             <tr>
-                                <th>Ruc</th>
+                                <th>Nit</th>
                                 <th>Nombre</th>
                                 <th>Telefono</th>
                                 <th>Correo</th>
@@ -46,7 +46,7 @@
                     <input type="hidden" id="id" name="id">
                     <div class="row mb-3">
                         <div class="col-md-4 mb-3">
-                            <label for="num_identidad">Ruc <span class="text-danger">*</span></label>
+                            <label for="num_identidad">Nit <span class="text-danger">*</span></label>
                             <div class="input-group">
                                 <span class="input-group-text"><i class="fas fa-list"></i></span>
                                 <input class="form-control" type="number" name="ruc" id="ruc" placeholder="N° Identidad">

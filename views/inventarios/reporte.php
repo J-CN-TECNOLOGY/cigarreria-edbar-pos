@@ -17,7 +17,7 @@
             </td>
             <td class="info-empresa">
                 <p><?php echo $data['empresa']['nombre']; ?></p>
-                <p>Ruc: <?php echo $data['empresa']['ruc']; ?></p>
+                <p>Nit: <?php echo $data['empresa']['ruc']; ?></p>
                 <p>Teléfono: <?php echo $data['empresa']['telefono']; ?></p>
                 <p>Dirección: <?php echo $data['empresa']['direccion']; ?></p>
             </td>

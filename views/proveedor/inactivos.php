@@ -8,7 +8,7 @@
             <table class="table table-bordered table-striped table-hover align-middle nowrap" id="tblProveedores" style="width: 100%;">
                 <thead>
                     <tr>
-                        <th>Ruc</th>
+                        <th>Nit</th>
                         <th>Nombre</th>
                         <th>Telefono</th>
                         <th>Correo</th>

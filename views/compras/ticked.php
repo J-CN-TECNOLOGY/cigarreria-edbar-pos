@@ -18,7 +18,7 @@
     </div>
     <h5 class="title">Datos del Proveedor</h5>
     <div class="datos-info">
-        <p><strong>Ruc: </strong> <?php echo $data['compra']['ruc']; ?></p>
+        <p><strong>Nit: </strong> <?php echo $data['compra']['ruc']; ?></p>
         <p><strong>Nombre: </strong> <?php echo $data['compra']['nombre']; ?></p>
         <p><strong>Teléfono: </strong> <?php echo $data['compra']['telefono']; ?></p>
     </div>

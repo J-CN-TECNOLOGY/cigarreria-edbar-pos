@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--favicon-->
-    <link rel="shortcut icon" type="image/x-icon" href="<?php echo BASE_URL; ?>assets/images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo BASE_URL; ?>assets/images/logo.png">
     <link href="<?php echo BASE_URL; ?>assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
     <link href="<?php echo BASE_URL; ?>assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
     <link href="<?php echo BASE_URL; ?>assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet" />
@@ -40,7 +40,7 @@
                     <img src="<?php echo BASE_URL; ?>assets/images/logo.png" class="logo-icon" alt="logo icon">
                 </div>
                 <div>
-                    <h4 class="logo-text">PV</h4>
+                    <h4 class="logo-text">Cigarreria Edbar</h4>
                 </div>
                 <div class="toggle-icon ms-auto"><i class='bx bx-arrow-to-left'></i>
                 </div>
@@ -75,7 +75,7 @@
                     <a href="javascript:;" class="has-arrow">
                         <div class="parent-icon"><i class="fa-solid fa-clipboard-list"></i>
                         </div>
-                        <div class="menu-title">Mantenimiento</div>
+                        <div class="menu-title">Mantenimiento / productos</div>
                     </a>
                     <ul>
                         <li> <a href="<?php echo BASE_URL . 'medidas'; ?>"><i class="bx bx-right-arrow-alt"></i>Medidas</a>
