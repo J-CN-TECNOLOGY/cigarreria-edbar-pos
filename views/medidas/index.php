@@ -27,8 +27,8 @@
                     <table class="table table-bordered table-striped table-hover nowrap" id="tblMedidas" style="width: 100%;">
                         <thead>
                             <tr>
-                                <th>Nombre</th>
-                                <th>Nombre Corto</th>
+                                <th>Medida (ml o gr) </th>
+                                <th>Categoria</th>
                                 <th></th>
                             </tr>
                         </thead>
@@ -43,24 +43,24 @@
                     <input type="hidden" id="id" name="id">
                     <div class="row mb-3">
                         <div class="col-md-6">
-                            <label for="nombre">Nombre <span class="text-danger">*</span></label>
+                            <label for="nombre">Medida (ml o gr) <span class="text-danger">*</span></label>
                             <div class="input-group">
                                 <span class="input-group-text"><i class="fas fa-list"></i></span>
-                                <input class="form-control" type="text" name="nombre" id="nombre" placeholder="Nombre">
+                                <input class="form-control" type="text" name="nombre" id="nombre" placeholder="Medida">
                             </div>
                             <span id="errorNombre" class="text-danger"></span>
                         </div>
                         <div class="col-md-6">
-                            <label for="nombre_corto">Nombre Corto <span class="text-danger">*</span></label>
+                            <label for="nombre_corto">Categoria <span class="text-danger">*</span></label>
                             <div class="input-group">
                                 <span class="input-group-text"><i class="fas fa-list-alt"></i></span>
-                                <input class="form-control" type="text" name="nombre_corto" id="nombre_corto" placeholder="Nombre Corto">
+                                <input class="form-control" type="text" name="nombre_corto" id="nombre_corto" placeholder="Categoria">
                             </div>
                             <span id="errorNombreCorto" class="text-danger"></span>
                         </div>
                     </div>
                     <div class="text-end">
-                    <button class="btn btn-danger" type="button" id="btnNuevo">Nuevo</button>
+                        <button class="btn btn-danger" type="button" id="btnNuevo">Nuevo</button>
                         <button class="btn btn-primary" type="submit" id="btnAccion">Registrar</button>
                     </div>
                 </form>

@@ -34,9 +34,9 @@ class Medidas extends Controller
         $nombre_corto = strClean($_POST['nombre_corto']);
         $id = strClean($_POST['id']);
         if (empty($nombre)) {
-            $res = array('msg' => 'EL NOMBRE ES REQUERIDO', 'type' => 'warning');
+            $res = array('msg' => 'LA MEDIDA ES REQUERIDA', 'type' => 'warning');
         } else if (empty($nombre_corto)) {
-            $res = array('msg' => 'EL NOMBRE CORTO ES REQUERIDO', 'type' => 'warning');
+            $res = array('msg' => 'LA CATEGORIA ES REQUERIDA', 'type' => 'warning');
         } else {
             if ($id == '') {
                 $verificar = $this->model->getValidar('medida', $nombre, 'registrar', 0);

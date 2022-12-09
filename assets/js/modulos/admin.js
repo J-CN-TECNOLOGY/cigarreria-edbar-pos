@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
         errorCorreo.textContent = '';
         errorDireccion.textContent = '';
         if (ruc.value == '') {
-            errorRuc.textContent = 'EL RUC ES REQUERIDO';
+            errorRuc.textContent = 'EL NIT ES REQUERIDO';
         } else if (nombre.value == '') {
             errorNombre.textContent = 'EL NOMBRE ES REQUERIDO';
         } else if (correo.value == '') {

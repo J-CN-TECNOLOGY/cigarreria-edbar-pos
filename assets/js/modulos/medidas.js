@@ -43,9 +43,9 @@ document.addEventListener('DOMContentLoaded', function () {
         errorNombre.textContent = '';
         errorNombreCorto.textContent = '';
         if (nombre.value == '') {
-            errorNombre.textContent = 'EL NOMBRE ES REQUERIDO';
+            errorNombre.textContent = 'LA MEDIDA ES REQUERIDA';
         } else if (nombre_corto.value == '') {
-            errorNombreCorto.textContent = 'EL NOMBRE CORTO ES REQUERIDO';
+            errorNombreCorto.textContent = 'LA CATEGORIA ES REQUERIDA';
         } else {
             const url = base_url + 'medidas/registrar';
             insertarRegistros(url, this, tblMedidas, btnAccion, false);

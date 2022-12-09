@@ -34,7 +34,7 @@ class Categorias extends Controller
             $categoria = strClean($_POST['nombre']);
             $id = strClean($_POST['id']);
             if (empty($categoria)) {
-                $res = array('msg' => 'EL NOMBRE ES REQUERIDO', 'type' => 'warning');
+                $res = array('msg' => 'LA MEDIDA ES REQUERIDA', 'type' => 'warning');
             } else {
                 if ($id == '') {
                     $verificar = $this->model->getValidar('categoria', $categoria, 'registrar', 0);

@@ -8,8 +8,8 @@
             <table class="table table-bordered table-striped table-hover nowrap" id="tblMedidas" style="width: 100%;">
                 <thead>
                     <tr>
-                        <th>Nombre</th>
-                        <th>Nombre Corto</th>
+                        <th>Medida (ml o gr) </th>
+                        <th>Categoria</th>
                         <th></th>
                     </tr>
                 </thead>

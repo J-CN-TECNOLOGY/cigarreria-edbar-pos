@@ -63,7 +63,7 @@ class Admin extends Controller
             $logo = $_FILES['foto'];
             $id = strClean($_POST['id']);
             if (empty($ruc)) {
-                $res = array('msg' => 'EL RUC ES REQUERIDO', 'type' => 'warning');
+                $res = array('msg' => 'EL NIT ES REQUERIDO', 'type' => 'warning');
             } else if (empty($nombre)) {
                 $res = array('msg' => 'EL NOMBRE ES REQUERIDO', 'type' => 'warning');
             } else if (empty($telefono)) {

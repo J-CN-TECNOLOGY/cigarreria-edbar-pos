@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1:3306
--- Tiempo de generación: 08-12-2022 a las 22:27:04
+-- Tiempo de generación: 09-12-2022 a las 17:53:47
 -- Versión del servidor: 5.7.40
 -- Versión de PHP: 8.0.26
 
@@ -53,7 +53,7 @@ CREATE TABLE IF NOT EXISTS `acceso` (
   `detalle` text NOT NULL,
   `fecha` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=45 DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `acceso`
@@ -73,7 +73,37 @@ INSERT INTO `acceso` (`id`, `evento`, `ip`, `detalle`, `fecha`) VALUES
 (11, 'Inicio de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-08 19:54:33'),
 (12, 'Inicio de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-08 21:26:44'),
 (13, 'Inicio de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-08 22:11:26'),
-(14, 'Cierre de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-08 22:23:09');
+(14, 'Cierre de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-08 22:23:09'),
+(15, 'Inicio de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-08 22:33:16'),
+(16, 'Cierre de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-08 22:53:59'),
+(17, 'Inicio de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-08 22:54:05'),
+(18, 'Cierre de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-08 22:56:45'),
+(19, 'Inicio de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-08 22:56:51'),
+(20, 'Cierre de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-08 22:57:13'),
+(21, 'Inicio de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-08 22:57:38'),
+(22, 'Cierre de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-08 23:00:30'),
+(23, 'Inicio de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-08 23:00:38'),
+(24, 'Cierre de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-08 23:08:19'),
+(25, 'Inicio de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-08 23:08:25'),
+(26, 'Cierre de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-08 23:25:05'),
+(27, 'Inicio de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-08 23:25:12'),
+(28, 'Inicio de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-09 01:19:09'),
+(29, 'Cierre de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-09 02:44:04'),
+(30, 'Inicio de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-09 02:53:32'),
+(31, 'Cierre de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-09 02:53:40'),
+(32, 'Inicio de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-09 02:56:19'),
+(33, 'Inicio de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-09 03:03:46'),
+(34, 'Cierre de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-09 03:08:01'),
+(35, 'Inicio de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-09 03:08:34'),
+(36, 'Cierre de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-09 03:10:35'),
+(37, 'Inicio de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-09 03:15:49'),
+(38, 'Cierre de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-09 03:16:10'),
+(39, 'Inicio de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-09 03:17:33'),
+(40, 'Cierre de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-09 05:29:53'),
+(41, 'Inicio de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-09 05:30:00'),
+(42, 'Cierre de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-09 05:58:27'),
+(43, 'Inicio de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42', '2022-12-09 05:58:33'),
+(44, 'Inicio de SesiÃ³n', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46', '2022-12-09 17:38:48');
 
 -- --------------------------------------------------------
 
@@ -141,14 +171,17 @@ CREATE TABLE IF NOT EXISTS `categorias` (
   `fecha` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `estado` int(11) NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `categorias`
 --
 
 INSERT INTO `categorias` (`id`, `categoria`, `fecha`, `estado`) VALUES
-(1, 'Gaseosas', '2022-12-08 21:39:06', 1);
+(1, 'Gaseosas', '2022-12-09 01:26:38', 0),
+(2, 'Granos', '2022-12-09 01:26:36', 0),
+(3, 'Despensa', '2022-12-09 01:20:08', 1),
+(4, 'Bebidas', '2022-12-09 01:33:06', 1);
 
 -- --------------------------------------------------------
 
@@ -168,7 +201,14 @@ CREATE TABLE IF NOT EXISTS `clientes` (
   `fecha` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `estado` int(11) NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `clientes`
+--
+
+INSERT INTO `clientes` (`id`, `identidad`, `num_identidad`, `nombre`, `telefono`, `correo`, `direccion`, `fecha`, `estado`) VALUES
+(1, 'DNI', '2731207309', 'Maria Esperanza', '409273409280', 'maria197@gmail.com', '<p>carrera 114 a 16</p>', '2022-12-08 22:44:26', 1);
 
 -- --------------------------------------------------------
 
@@ -191,7 +231,14 @@ CREATE TABLE IF NOT EXISTS `compras` (
   PRIMARY KEY (`id`),
   KEY `id_proveedor` (`id_proveedor`),
   KEY `id_usuario` (`id_usuario`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `compras`
+--
+
+INSERT INTO `compras` (`id`, `productos`, `total`, `fecha`, `hora`, `serie`, `estado`, `apertura`, `id_proveedor`, `id_usuario`) VALUES
+(1, '[{\"id\":\"1\",\"nombre\":\"Coca Cola Personal\",\"precio\":\"1.50\",\"cantidad\":2}]', '3.00', '2022-12-08', '22:44:52', '00000018', 1, 1, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -217,7 +264,7 @@ CREATE TABLE IF NOT EXISTS `configuracion` (
 --
 
 INSERT INTO `configuracion` (`id`, `ruc`, `nombre`, `telefono`, `correo`, `direccion`, `mensaje`, `impuesto`) VALUES
-(1, '1111111111', 'Cigarreria Edbar', '1111111111', 'cigarreriaedbar@gmail.com', 'Gustavo Restrepo', '', 0);
+(1, '1111111111', 'Cigarreria Edbar', '1111111111', 'cigarreriaedbar@gmail.com', 'Gustavo Restrepo', '<p>Gracias por comprar en nuestra tienda</p>', 0);
 
 -- --------------------------------------------------------
 
@@ -313,7 +360,16 @@ CREATE TABLE IF NOT EXISTS `inventario` (
   PRIMARY KEY (`id`),
   KEY `id_producto` (`id_producto`),
   KEY `id_usuario` (`id_usuario`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `inventario`
+--
+
+INSERT INTO `inventario` (`id`, `movimiento`, `accion`, `cantidad`, `stock_actual`, `fecha`, `id_producto`, `id_usuario`) VALUES
+(1, 'Compra NÂ°: 1', 'entrada', 2, 7, '2022-12-08 22:44:52', 1, 1),
+(2, 'Venta NÂ°: 31', 'salida', 2, 5, '2022-12-08 22:45:22', 1, 1),
+(3, 'Venta NÂ°: 31', 'salida', 1, 14, '2022-12-08 22:45:22', 3, 1);
 
 -- --------------------------------------------------------
 
@@ -329,14 +385,18 @@ CREATE TABLE IF NOT EXISTS `medidas` (
   `fecha` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `estado` int(11) NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `medidas`
 --
 
 INSERT INTO `medidas` (`id`, `medida`, `nombre_corto`, `fecha`, `estado`) VALUES
-(1, 'Personal', 'Personal', '2022-12-08 21:39:24', 1);
+(1, 'Personal', 'Ps', '2022-12-09 01:28:33', 0),
+(2, 'Arroz', 'Despensa', '2022-12-09 01:28:31', 0),
+(3, '1000 gr', 'Despensa', '2022-12-09 01:26:18', 1),
+(4, '3000 ml', 'Despensa', '2022-12-09 01:29:19', 1),
+(5, '6000 ml', 'Bebidas', '2022-12-09 01:32:54', 1);
 
 -- --------------------------------------------------------
 
@@ -361,14 +421,19 @@ CREATE TABLE IF NOT EXISTS `productos` (
   PRIMARY KEY (`id`),
   KEY `id_categoria` (`id_categoria`),
   KEY `id_medida` (`id_medida`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `productos`
 --
 
 INSERT INTO `productos` (`id`, `codigo`, `descripcion`, `precio_compra`, `precio_venta`, `cantidad`, `foto`, `estado`, `fecha`, `ventas`, `id_medida`, `id_categoria`) VALUES
-(1, '812380217309', 'Coca Cola Personal', '1.50', '2.20', 0, 'assets/images/productos/20221208214114.jpg', 1, '2022-12-08 21:41:14', 0, 1, 1);
+(1, '8123802173094', 'Coca Cola Personal', '1.50', '2.20', 5, 'assets/images/productos/20221208214114.jpg', 0, '2022-12-09 01:33:13', 2, 1, 1),
+(2, '740129749123', 'Coca Cola Personal', '1.50', '2.20', 0, 'assets/images/productos/20221208214114.jpg', 0, '2022-12-08 22:38:04', 0, 1, 1),
+(3, '2371029733432', 'Arroz roa', '2000.00', '2300.00', 14, 'assets/images/productos/20221208223723.jpg', 1, '2022-12-09 01:26:57', 1, 3, 3),
+(4, '2738269830928', 'Sal Refinada REFISAL', '1.50', '1.81', 0, 'assets/images/productos/20221209012434.jpg', 1, '2022-12-09 01:24:34', 0, 3, 3),
+(5, '239821730909', 'Aceite Vegetal FRESCAMPO', '2800.00', '2998.00', 0, 'assets/images/productos/20221209013132.jpg', 1, '2022-12-09 01:34:12', 0, 4, 3),
+(6, '7569876898989', 'Coca Cola', '12.00', '13.35', 0, 'assets/images/productos/20221209013541.jpg', 1, '2022-12-09 01:35:41', 0, 5, 4);
 
 -- --------------------------------------------------------
 
@@ -387,7 +452,14 @@ CREATE TABLE IF NOT EXISTS `proveedor` (
   `fecha` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `estado` int(11) NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `proveedor`
+--
+
+INSERT INTO `proveedor` (`id`, `ruc`, `nombre`, `telefono`, `correo`, `direccion`, `fecha`, `estado`) VALUES
+(1, '28312830921', 'Jorge Martinez', '231241241231', 'jorgemartinez@gmail.com', '<p>carrera 18 A 87-45</p>', '2022-12-08 22:43:45', 1);
 
 -- --------------------------------------------------------
 
@@ -410,7 +482,7 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
   `estado` int(11) NOT NULL DEFAULT '1',
   `rol` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `usuarios`
@@ -419,8 +491,9 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 INSERT INTO `usuarios` (`id`, `nombre`, `apellido`, `correo`, `telefono`, `direccion`, `perfil`, `clave`, `token`, `fecha`, `estado`, `rol`) VALUES
 (1, 'Santiago', 'Garcia', 'quintiagogarcia04@gmail.com', '3197913351', 'Carrera 107 bis b # 73-41', 'assets/images/perfil/20221208192011quintiagogarcia04@gmail.com.jpg', '$2y$10$nCRpTsZ3m2LLiOziCIBpZOF45Y1BoBSJ/htvSEI9olED2.ZrM1pb.', NULL, '2022-12-08 19:20:11', 1, 1),
 (2, 'SEGUNDO', 'USUARIO', 'segundousers@gmail.com', '79898987', 'PERU', NULL, '$2y$10$iEqpvM8zHShRgJPKwgkIeeO1MqG6b6Ka2Y7vhJtOXe4KShEv3pN8i', NULL, '2022-12-08 19:24:38', 0, 2),
-(3, 'Juan', 'Montenegro', 'juanmontenegro@gmail.com', '1111111111', '742 Evergreen Terrace', NULL, '$2y$10$VKFgFdmkUQi13BdhOn2tWOwzqX037OsZG5tVcGRXCmXTZ6r8aSFQm', NULL, '2022-12-08 19:22:56', 1, 2),
-(4, 'Claudia', 'Suarez', 'claudia@gmail.com', '2222222222', '742 Evergreen Terrace', NULL, '$2y$10$Zw7eShr.7.strYvrGsX9cebW6Oqx8ZKA3ZjzAlC6ab4sICma5tWTa', NULL, '2022-12-08 19:55:26', 1, 1);
+(3, 'Juan', 'Montenegro', 'juanmontenegro@gmail.com', '1111111111', '742 Evergreen Terrace', 'assets/images/perfil/20221208225549juanmontenegro@gmail.com.jpg', '$2y$10$VKFgFdmkUQi13BdhOn2tWOwzqX037OsZG5tVcGRXCmXTZ6r8aSFQm', NULL, '2022-12-08 22:55:49', 1, 2),
+(4, 'Claudia', 'Suarez', 'claudia@gmail.com', '2222222222', '742 Evergreen Terrace', 'assets/images/perfil/20221208230812claudia@gmail.com.jpg', '$2y$10$Zw7eShr.7.strYvrGsX9cebW6Oqx8ZKA3ZjzAlC6ab4sICma5tWTa', NULL, '2022-12-08 23:08:12', 1, 1),
+(5, 'administrador', 'admin', 'admin@gmail.com', '999999999', 'administrador', NULL, '$2y$10$yoAn1z4JS76sL/8lGCEVlOmfpemCGawjBGhyaDURoC8m1yPuJWUBe', NULL, '2022-12-09 03:09:11', 1, 1);
 
 -- --------------------------------------------------------
 
@@ -445,7 +518,14 @@ CREATE TABLE IF NOT EXISTS `ventas` (
   PRIMARY KEY (`id`),
   KEY `id_cliente` (`id_cliente`),
   KEY `id_usuario` (`id_usuario`)
-) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=32 DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `ventas`
+--
+
+INSERT INTO `ventas` (`id`, `productos`, `total`, `fecha`, `hora`, `metodo`, `descuento`, `serie`, `estado`, `apertura`, `id_cliente`, `id_usuario`) VALUES
+(31, '[{\"id\":\"1\",\"nombre\":\"Coca Cola Personal\",\"precio\":\"2.20\",\"cantidad\":\"2\"},{\"id\":\"3\",\"nombre\":\"Arroz roa\",\"precio\":\"2300.00\",\"cantidad\":1}]', '2304.40', '2022-12-08', '22:45:22', 'CONTADO', '0.00', '00000001', 1, 1, 1, 1);
 
 --
 -- Restricciones para tablas volcadas
